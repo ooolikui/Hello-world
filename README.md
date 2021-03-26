@@ -1,3 +1,7 @@
+{% if site.title and site.title != page.title %} 
+ <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1> 
+{% endif %} 
+
 <b>李       岿</b>
 
 税法硕士(牛津), 美国税务硕士(福特汉姆), 国际金融学士(天津财经)
